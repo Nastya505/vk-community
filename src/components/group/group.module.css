@@ -1,0 +1,42 @@
+.item{
+    min-width: 200px;
+    text-align: left;
+    border : 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: top
+}
+.closed{
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: "#121212";
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+.btn{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.friend{
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-top:0;
+    border-radius: 5px;
+    padding: 5px;
+    color: "#121212";
+}
